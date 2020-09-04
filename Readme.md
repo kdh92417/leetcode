@@ -31,6 +31,7 @@ Blog : https://velog.io/@wind1992
   - leetcode 7
 * [x] 연결 리스트
   - leetode 21
+  - leetcode 1290
 * [ ] 스택, 큐
 * [ ] 데크, 우선순위 큐
 * [ ] 해시 테이블
