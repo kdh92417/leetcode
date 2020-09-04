@@ -25,11 +25,12 @@ Blog : https://velog.io/@wind1992
 
 <br></br>
 
-## 푼 문제들
+## 문제들
 * [x] 배열
   - leetcode 1
   - leetcode 7
-* [ ] 연결 리스트
+* [x] 연결 리스트
+  - leetode 21
 * [ ] 스택, 큐
 * [ ] 데크, 우선순위 큐
 * [ ] 해시 테이블
