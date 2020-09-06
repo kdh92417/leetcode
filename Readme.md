@@ -29,6 +29,7 @@ Blog : https://velog.io/@wind1992
 * [x] 배열
   - leetcode 1
   - leetcode 7
+  - leetcode 1480
 * [x] 연결 리스트
   - leetode 21
   - leetcode 1290
