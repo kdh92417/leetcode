@@ -34,7 +34,8 @@ Blog : https://velog.io/@wind1992
   - leetode 21
   - leetcode 1290
   - leetcode 206
-* [ ] 스택, 큐
+* [x] 스택, 큐
+  - leetcode 20
 * [ ] 데크, 우선순위 큐
 * [ ] 해시 테이블
 * [ ] 그래프
