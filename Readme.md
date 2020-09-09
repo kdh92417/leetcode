@@ -30,6 +30,7 @@ Blog : https://velog.io/@wind1992
   - leetcode 1
   - leetcode 7
   - leetcode 1480
+  - leetcode 1431
 * [x] 연결 리스트
   - leetode 21
   - leetcode 1290
