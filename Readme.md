@@ -41,7 +41,8 @@ Blog : https://velog.io/@wind1992
   - leetcode 225
   - leetcode 232
   - leetcode 622
-* [ ] 데크, 우선순위 큐
+* [x] 데크, 우선순위 큐
+  - leetcode 641
 * [ ] 해시 테이블
 * [ ] 그래프
 * [ ] 트리
