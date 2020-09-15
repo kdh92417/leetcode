@@ -1,3 +1,15 @@
+'''
+LeetCode : 641. Design Circular Deque
+Blog : https://velog.io/@wind1992/LeetCode-641
+'''
+
+# 로컬에서 구현할때 class ListNode 선언해야됨
+# class ListNode:
+#     def __init__(self, item):
+#         self.val = item
+#         self.next = None
+
+
 class MyCircularDeque:
 
     def __init__(self, k: int):
@@ -5,7 +17,7 @@ class MyCircularDeque:
         Initialize your data structure here. Set the size of the deque to be k.
         """
         self.head, self.tail = ListNode(None), ListNode(None)
-        self.k, self.len = k, 0
+        self.k, self.len = k, 0	# self.k = 최대길이, self.len = 현재 길이
         self.head.right, self.tail.left = self.tail, self.head
 
     # 이중 연결 리스트에 신규 노트 삽입
@@ -70,24 +82,16 @@ class MyCircularDeque:
         """
         Get the last item from the deque.
         """
+        return self.tail.left.val if self.len else -1
 
     def isEmpty(self) -> bool:
         """
         Checks whether the circular deque is empty or not.
         """
+        return self.len == 0
 
     def isFull(self) -> bool:
         """
         Checks whether the circular deque is full or not.
         """
-
-# Your MyCircularDeque object will be instantiated and called as such:
-# obj = MyCircularDeque(k)
-# param_1 = obj.insertFront(value)
-# param_2 = obj.insertLast(value)
-# param_3 = obj.deleteFront()
-# param_4 = obj.deleteLast()
-# param_5 = obj.getFront()
-# param_6 = obj.getRear()
-# param_7 = obj.isEmpty()
-# param_8 = obj.isFull()
+        return self.len == self.k
